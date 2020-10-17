@@ -19,8 +19,8 @@ public class DistanceAndDirectionCalculator {
         return Math.atan2 (yDifference, xDifference);
     }
 
-    private  double square(double xDifference) {
-        return Math.pow (xDifference, 2);
+    private  double square(double difference) {
+        return Math.pow (difference, 2);
     }
 
 
