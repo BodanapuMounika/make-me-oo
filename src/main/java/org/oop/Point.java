@@ -4,18 +4,18 @@ public class Point {
     private double x;
     private double y;
     public Point(double x, double y) {
-        setX (x);
-        setY (y);
+        this.setX (x);
+        this.setY (y);
     }
     public double getX() {
         return this.x;
     }
     public double getY() { return this.y;}
 
-    private void setY(double y) {
+    private  void setY(double y) {
         this.y = y;
     }
-    private void setX(double x) {
+    private  void setX(double x) {
         this.x = x;
     }
 
